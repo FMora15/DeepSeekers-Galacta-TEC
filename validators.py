@@ -61,11 +61,3 @@ class UniquenessValidator:
             if pdata.get("email") == email:
                 return False
         return True
-
-
-        
-        
-        
-
-        
-
