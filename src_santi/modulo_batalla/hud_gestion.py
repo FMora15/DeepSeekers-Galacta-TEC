@@ -1,4 +1,4 @@
-# hud_gestion.py
+# hud_manager.py
 import pygame
 
 class HUDManager:

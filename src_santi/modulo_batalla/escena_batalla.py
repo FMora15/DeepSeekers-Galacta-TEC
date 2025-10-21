@@ -1,6 +1,6 @@
-# escena_batalla.py
+#escena_batalla.py
 import pygame
-from hud_gestion import HUDManager  # Importa desde tu archivo
+from hud_gestion import HUDManager  # Cambié el import para que coincida con tu archivo
 
 class EscenaBatalla:
     """Gestiona la escena principal de batalla del juego"""
@@ -62,7 +62,7 @@ class EscenaBatalla:
         self.pantalla.blit(self.fondo, (0, 0))
         
         # Actualizar y dibujar HUD
-        self.hud.draw()  # ← NOMBRE COMPATIBLE
+        self.hud.draw()
         
         # Mostrar mensaje inicial temporal
         if hasattr(self, 'mensaje_inicio') and self.mensaje_inicio:
@@ -79,9 +79,9 @@ class EscenaBatalla:
                 if evento.key == pygame.K_v:  # Tecla V para volumen
                     self.ajustar_volumen(50)
                 if evento.key == pygame.K_1:  # Tecla 1 - prueba jugador 1
-                    self.hud.update_player_info(0, 150, 2)  # ← NOMBRE COMPATIBLE
+                    self.hud.actualizar_info_jugador(0, 150, 2)
                 if evento.key == pygame.K_2:  # Tecla 2 - prueba jugador 2
-                    self.hud.update_player_info(1, 75, 3)   # ← NOMBRE COMPATIBLE
+                    self.hud.actualizar_info_jugador(1, 75, 3)
 
 if __name__ == "__main__":
     print("✅ Módulo EscenaBatalla cargado correctamente")
