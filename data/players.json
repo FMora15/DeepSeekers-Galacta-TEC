@@ -1,0 +1,14 @@
+{
+  "4b044465-bdfb-4961-bdbd-e5d7500f7e48": {
+    "id": "4b044465-bdfb-4961-bdbd-e5d7500f7e48",
+    "alias": "TEST",
+    "full_name": "TEST",
+    "email": "melanymontoya0912@gmail.com",
+    "password_hash": "$2b$12$7JpdTj2QouhCOdSMtyS5ye87eQcwMuEQLKHrNzR7zkEejyb.H10ga",
+    "profile_picture": "Ruta opcional",
+    "spaceship_image": "Ruta opcional",
+    "favorite_music": [
+      "Separar por coma"
+    ]
+  }
+}
