@@ -1,0 +1,15 @@
+[
+  {
+    "alias": "Test",
+    "full_name": "Test",
+    "email": "melanymontoya0912@gmail.com",
+    "password": "Test123.",
+    "profile_picture": "Ruta opcional",
+    "spaceship_image": "Ruta opcional",
+    "favorite_music": [
+      "Separar por coma"
+    ],
+    "token": "63ff65b5-7f41-4947-9d21-f036e25211d1",
+    "confirmed": false
+  }
+]
