@@ -17,7 +17,7 @@ class Validator:
         if not re.match(pattern, email): 
             raise ValueError("Formato de email invalido.")
     
-    def validate_password_strenght(password: str): 
+    def validate_password_strength(password: str): 
         if len(password) < 7: 
             raise ValueError("La contraseña debe tener al menos 7 caracteres.")
         if not re.search(r'[A-Z]', password):
